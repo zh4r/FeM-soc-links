@@ -1,14 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    background-color: black;
+}
+
+main {
+    margin: 0 auto;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     width: 395px;
     height: 620px;
-    border: 1px solid black;
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 1rem;
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2.2rem;
+    margin-bottom: 1.8rem;
+    width: 90px;
+    height: 90px;
+    border-radius: 5rem;
+}
+
+.pv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.pv h1 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.pv h2 {
+    margin-top: 0;
+    line-height: 2.5rem;
+    font-size: medium;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.links a {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 0.6rem;
+    background-color: hsl(0, 0%, 20%);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.9rem;
+    margin: 0.5rem auto;    
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
 }
 
 .attribution {
