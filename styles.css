@@ -2,9 +2,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
 }
 
 /* center content */
@@ -20,22 +20,22 @@ main {
     margin: 0 auto;
     width: 395px;
     height: 620px;
-    background-color: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 13%);
     border-radius: 1rem;
 }
 
 img {
     display: flex;
     margin: 0 auto;
-    margin-top: 2.2rem;
-    margin-bottom: 1.8rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
     width: 90px;
     height: 90px;
     border-radius: 5rem;
 }
 
 .pv {
-    width: 80%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -50,10 +50,11 @@ img {
 
 .pv h2 {
     margin-top: 0;
-    line-height: 2.5rem;
+    margin-bottom: 0.5rem ;
+    line-height: 2rem;
     font-size: medium;
     font-weight: 600;
-    color: hsl(75, 94%, 57%);
+    color: hsl(34, 94%, 57%);
 }
 
 .links {
@@ -74,20 +75,34 @@ img {
     color: aliceblue;
     text-decoration: none;
     font-weight: 700;
-    padding: 0.9rem;
-    margin: 0.5rem auto;    
+    padding: 0.8rem;
+    margin: 0.5rem auto;
+    transition: 0.25s ease-in
 }
 
 a:hover {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 20%);
+    background-color: hsl(34, 94%, 57%);
+    color: hsla(0, 0%, 7%, 0.813);
+    transition: 0.25s ease-in;
 }
 
-.attribution {
+footer {
+    position: absolute;
+    margin: 0 auto;
     font-size: 11px;
     text-align: center;
+    bottom: 1%;
+    color: aliceblue;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer a {
+    color: hsl(34, 94%, 50%);
+    transition: 0.25s;
+}
+
+footer a:hover {
+    color: hsl(34, 94%, 50%);
+    background-color: rgba(255, 119, 0, 0.5);
+    color: antiquewhite;
+    transition: 0.25s;
 }
