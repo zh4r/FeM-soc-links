@@ -1,7 +1,6 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: hsl(0, 0%, 8%);
@@ -22,6 +21,7 @@ main {
     height: 620px;
     background-color: hsl(0, 0%, 13%);
     border-radius: 1rem;
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -80,11 +80,13 @@ img {
     transition: 0.25s ease-in
 }
 
-a:hover {
+.links a:hover, a:focus-within {
     background-color: hsl(34, 94%, 57%);
     color: hsla(0, 0%, 7%, 0.813);
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: 0.25s ease-in;
 }
+
 
 footer {
     position: absolute;
