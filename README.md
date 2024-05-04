@@ -32,7 +32,7 @@ Users should be able to:
 - [Live Preview](https://zh4r.github.io/FEM/social-links-tree/index.html)
 
 ## My process
-This challenge, I wanted to focus on accessability and SEO practices, as I am not very familiar with either, and I would love some feedback on how well I did on both. 
+This challenge, I wanted to focus on accessibility and SEO practices, as I am not very familiar with either, and I would love some feedback on how well I did on both. 
 
 Decided to change the accent color to a warmer one, because I like it better.
 
